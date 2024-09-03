@@ -1,0 +1,7 @@
+{
+  "name": "my-lib",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/my-lib/lib",
+  "projectType": "library",
+  "targets": {}
+}
