@@ -24,7 +24,10 @@ export default defineConfig({
       name: 'fff',
       remotes: {},
       shared: {
-        'react/': {
+        'react': {
+          singleton: true,
+        },
+        'my-lib/': {
           singleton: true,
         },
       },
